@@ -1,0 +1,144 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-bg-container {
+  background-color: #ffffff;
+  width: 80vw;
+  min-height: 50vh;
+  padding: 10px;
+  border-radius: 5px;
+}
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #171f46;
+}
+
+.label {
+  color: #b5b7c4;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.purpose {
+  height: 35px;
+  width: 170px;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  border: 1px solid #b5b7c4;
+}
+
+.add-btn {
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  color: #b5b7c4;
+  font-family: Roboto;
+  font-size: 15px;
+  border-width: 0px;
+  font-weight: 700;
+}
+
+.image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 49%;
+    padding-right: 85px;
+
+    display: block;
+  }
+  .purpose {
+    width: 280px;
+  }
+  .main-heading {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.seperator {
+  border: 1px solid #b5b7c4;
+}
+
+.appointments-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #171f46;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  color: #8b5cf6;
+  font-family: Roboto;
+  font-size: 15px;
+  height: 35px;
+  width: 90px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.comment-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.filter-filled {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.filter-empty {
+  background-color: transparent;
+}
+@media screen and (max-width: 576px) {
+  .appointment-card {
+    padding: 10px;
+  }
+}

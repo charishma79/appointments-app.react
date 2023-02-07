@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.list-container {
+  min-height: 5vh;
+  min-width: 18vw;
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  margin-right: 5px;
+  padding: 2px;
+}
+
+.star-name-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.text {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  margin-top: 0px;
+}
+
+.starred-image {
+  height: 25px;
+}
+
+.date {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-top: 0px;
+}
